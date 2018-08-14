@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { ParticlesComponent } from './particles/particles.component';
 import { LinksComponent } from './links/links.component';
 import { SideNavigationComponent } from './side-navigation/side-navigation.component';
+import { ResumeComponent } from './resume/resume.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { SideNavigationComponent } from './side-navigation/side-navigation.compo
     AppComponent,
     ParticlesComponent,
     LinksComponent,
-    SideNavigationComponent
+    SideNavigationComponent,
+    ResumeComponent
   ],
   imports: [
     BrowserModule,
