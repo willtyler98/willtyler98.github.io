@@ -12,7 +12,7 @@ export class ParticlesComponent implements OnInit {
   constructor() {}
 
   ngOnInit() {
-    // this.loadParticles();
+    this.loadParticles();
   }
 
   loadParticles() {
