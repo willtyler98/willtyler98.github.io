@@ -1,0 +1,9 @@
+.link {
+  alignment: center;
+}
+
+.link_image {
+  width: 100px;
+  height: 50px;
+  border-radius: 12px;
+}
