@@ -1,6 +1,10 @@
-# Willtyler98
+# willtyler98.github.io
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.3.
+
+## Organization
+
+The static web files are pushed to branch master using angular-github-pages. The angular branch contains the actual project.
 
 ## Development server
 
