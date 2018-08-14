@@ -1,5 +1,7 @@
 # willtyler98.github.io
 
+[Handy Link](https://willtyler98.github.io/)
+
 This is my personal website. This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.3.
 
 ## Organization
