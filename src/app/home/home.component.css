@@ -1,0 +1,10 @@
+#home {
+  z-index: 2;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+}
+
+#home-link {
+  background-color: white;
+}

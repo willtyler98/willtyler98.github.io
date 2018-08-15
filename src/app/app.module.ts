@@ -12,6 +12,8 @@ import { SideNavigationComponent } from './side-navigation/side-navigation.compo
 import { ResumeComponent } from './resume/resume.component';
 import { AppRoutingModule } from './app-routing.module';
 import { PreviewComponent } from './preview/preview.component';
+import { AboutComponent } from './about/about.component';
+import { HomeComponent } from './home/home.component';
 
 
 @NgModule({
@@ -21,7 +23,9 @@ import { PreviewComponent } from './preview/preview.component';
     LinksComponent,
     SideNavigationComponent,
     ResumeComponent,
-    PreviewComponent
+    PreviewComponent,
+    AboutComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
