@@ -4,3 +4,11 @@ body {
   background-color: black;
   font-family: Calibri, sans-serif;
 }
+
+h1, h2 {
+  color: white;
+}
+
+mat-icon {
+  color: rgba(0, 0, 0, 0.87);;
+}

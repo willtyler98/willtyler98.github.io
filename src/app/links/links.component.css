@@ -1,4 +1,4 @@
-.link-container, .mat-icon {
+.link-content {
   background: white;
   width: 100px;
   height: 50px;
@@ -6,7 +6,6 @@
   vertical-align: top;
 }
 
-.mat-icon {
+mat-icon {
   font-size: 50px;
-  color: rgba(0, 0, 0, 0.87);
 }
