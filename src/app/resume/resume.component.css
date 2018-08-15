@@ -10,8 +10,18 @@ p {
   bottom: 5vh;
   right: 5vw;
 }
+
 #home-link {
   z-index: 2;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: white;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+#home-icon {
+  font-size: 50px;
 }
 
 object, iframe {

@@ -3,13 +3,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
+import { MatButtonModule } from '@angular/material/button';
 
 import { AppComponent } from './app.component';
 import { ParticlesComponent } from './particles/particles.component';
 import { LinksComponent } from './links/links.component';
 import { SideNavigationComponent } from './side-navigation/side-navigation.component';
 import { ResumeComponent } from './resume/resume.component';
-import { AppRoutingModule } from './/app-routing.module';
+import { AppRoutingModule } from './app-routing.module';
 import { PreviewComponent } from './preview/preview.component';
 
 
@@ -27,7 +28,8 @@ import { PreviewComponent } from './preview/preview.component';
     BrowserAnimationsModule,
     MatSidenavModule,
     MatIconModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
