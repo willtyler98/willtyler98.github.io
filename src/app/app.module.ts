@@ -9,6 +9,8 @@ import { ParticlesComponent } from './particles/particles.component';
 import { LinksComponent } from './links/links.component';
 import { SideNavigationComponent } from './side-navigation/side-navigation.component';
 import { ResumeComponent } from './resume/resume.component';
+import { AppRoutingModule } from './/app-routing.module';
+import { PreviewComponent } from './preview/preview.component';
 
 
 @NgModule({
@@ -17,13 +19,15 @@ import { ResumeComponent } from './resume/resume.component';
     ParticlesComponent,
     LinksComponent,
     SideNavigationComponent,
-    ResumeComponent
+    ResumeComponent,
+    PreviewComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     MatSidenavModule,
-    MatIconModule
+    MatIconModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
