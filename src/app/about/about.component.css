@@ -5,6 +5,7 @@
   margin-left: auto;
   margin-right: auto;
   text-align: justify;
+  box-shadow: 0 0 15px 30px black;
 }
 
 a, p {
@@ -20,8 +21,14 @@ p {
 }
 
 .image {
-  float: left;
   width: 30vw;
   margin: 12px;
   border-radius: 12px;
+}
+
+#siblings-image {
+  float: left;
+}
+#bridge-image {
+  float: right;
 }
