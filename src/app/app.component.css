@@ -1,3 +1,7 @@
 #particles {
   z-index: 0;
 }
+
+#router-content {
+  z-index: 1;
+}
