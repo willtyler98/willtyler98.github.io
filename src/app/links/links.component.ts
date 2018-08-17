@@ -11,7 +11,9 @@ import { MatIconRegistry } from '@angular/material';
 export class LinksComponent implements OnInit {
 
   constructor(private iconRegistry: MatIconRegistry, sanitizer: DomSanitizer) {
-    iconRegistry.addSvgIcon('github', sanitizer.bypassSecurityTrustResourceUrl('assets/github.svg'));
+    iconRegistry.addSvgIcon(
+      'github',
+      sanitizer.bypassSecurityTrustResourceUrl('assets/github.svg'));
   }
 
   ngOnInit() {}
