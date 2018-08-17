@@ -6,6 +6,10 @@
   margin-top: 12px;
 }
 
+.link-content:hover {
+  background: lightgray;
+}
+
 mat-icon {
   font-size: 50px;
 }
