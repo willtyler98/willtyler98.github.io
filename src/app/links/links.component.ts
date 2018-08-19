@@ -12,10 +12,6 @@ export class LinksComponent implements OnInit {
 
   constructor(private iconRegistry: MatIconRegistry, sanitizer: DomSanitizer) {
     iconRegistry.addSvgIcon(
-      'linked',
-      sanitizer.bypassSecurityTrustResourceUrl('assets/linked.svg/')
-    );
-    iconRegistry.addSvgIcon(
       'github',
       sanitizer.bypassSecurityTrustResourceUrl('assets/github.svg')
     );
