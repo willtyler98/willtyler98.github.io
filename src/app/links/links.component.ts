@@ -1,6 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { DomSanitizer } from '@angular/platform-browser';
-import { MatIconRegistry } from '@angular/material';
 
 
 @Component({
@@ -10,12 +8,7 @@ import { MatIconRegistry } from '@angular/material';
 })
 export class LinksComponent implements OnInit {
 
-  constructor(private iconRegistry: MatIconRegistry, sanitizer: DomSanitizer) {
-    iconRegistry.addSvgIcon(
-      'github',
-      sanitizer.bypassSecurityTrustResourceUrl('assets/github.svg')
-    );
-  }
+  constructor() {}
 
   ngOnInit() {}
 

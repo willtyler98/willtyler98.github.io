@@ -10,7 +10,7 @@
   background: lightgray;
 }
 
-#linkedin-drawing {
+#linkedin-drawing, #github-drawing {
   fill: rgba(0, 0, 0, 0.87);
 }
 
