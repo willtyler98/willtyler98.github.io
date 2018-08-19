@@ -19,4 +19,3 @@ The **angular** branch contains the actual Angular CLI project and source files.
 ## Room for Improvement
 
 * I am not completely satisfied with the look of the about me page. It could use some smoother styles / improvements.
-* The GitHub icon is too big compared to the other icons. This one is different because it is an svg icon, and it is difficult to change the size of the icon without changing the overall size of the button.
